@@ -127,8 +127,8 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
         @Override
         public void onCreatePreferences(Bundle bundle, String s) {
             addPreferencesFromResource(R.xml.pref_general);
-            addPreferencesFromResource(R.xml.pref_colors);
-            addPreferencesFromResource(R.xml.pref_notification);
+            //addPreferencesFromResource(R.xml.pref_colors);
+            //addPreferencesFromResource(R.xml.pref_notification);
             addPreferencesFromResource(R.xml.pref_now_playing_screen);
             addPreferencesFromResource(R.xml.pref_images);
             addPreferencesFromResource(R.xml.pref_lockscreen);
@@ -201,7 +201,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                 }
             });
 
-            final ATEColorPreference primaryColorPref = (ATEColorPreference) findPreference("primary_color");
+            /*final ATEColorPreference primaryColorPref = (ATEColorPreference) findPreference("primary_color");
             final int primaryColor = ThemeStore.primaryColor(getActivity());
             primaryColorPref.setColor(primaryColor, ColorUtil.darkenColor(primaryColor));
             primaryColorPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -289,7 +289,7 @@ public class SettingsActivity extends AbsBaseActivity implements ColorChooserDia
                         return true;
                     }
                 });
-            }
+            }*/
 
             final Preference equalizer = findPreference("equalizer");
             if (!hasEqualizer()) {

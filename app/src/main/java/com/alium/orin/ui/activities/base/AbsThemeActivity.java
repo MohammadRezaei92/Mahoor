@@ -27,8 +27,8 @@ public abstract class AbsThemeActivity extends ATHToolbarActivity {
         if (!ThemeStore.isConfigured(this, 1)) {
             ThemeStore.editTheme(this)
                     .activityTheme(R.style.Theme_Phonograph)
-                    .primaryColorRes(R.color.md_pink_200)
-                    .accentColorRes(R.color.md_purple_A100)
+                    .primaryColorRes(R.color.md_blue_grey_700)
+                    .accentColorRes(R.color.md_light_blue_500)
                     .commit();
         }
 
