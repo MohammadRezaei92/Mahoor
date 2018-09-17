@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Ọrin</string>
+    <string name="app_name">Mahoor</string>
 
-    <string name="aliu_abdul_mujib" translatable="false">Aliu Abdul-Mujib</string>
-    <string name="lagos_nigeria" translatable="false">Lagos, Nigeria</string>
+    <string name="m_r">Mohammad Rezaei</string>
+    <string name="isf_ir">Isfahan, Iran</string>
 
-
-    <string name="karim_abou_zeid" translatable="false">Karim Abou Zeid</string>
-    <string name="aidan_follestad" translatable="false">Aidan Follestad</string>
-    <string name="maarten_corpel" translatable="false">Maarten Corpel</string>
-    <string name="michael_cook_cookicons" translatable="false">Michael Cook (Cookicons)</string>
-    <string name="aleksandar_tesic" translatable="false">Aleksandar Tešić</string>
 
     <string name="aachen_germany" translatable="false">Aachen, Germany</string>
 
@@ -44,5 +38,5 @@
         }
     </string>
 
-    <string name="id_shortcuttype">com.kabouzeid.gramophone.appshortcuts.ShortcutType</string>
+    <string name="id_shortcuttype" translatable="false">rezaei.mohammad.mahoor.appshortcuts.ShortcutType</string>
 </resources>

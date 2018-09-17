@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:visibility="gone"
     android:layout_gravity="center"
+    android:visibility="gone"
     app:cardBackgroundColor="?cardBackgroundColor"
     app:cardUseCompatPadding="true">
 
@@ -39,7 +39,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_bug_report"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -58,13 +58,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/report_bugs"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/report_bugs_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
             </LinearLayout>
@@ -83,7 +81,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_google_plus_community"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -102,13 +100,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/join_community"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/join_community_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
             </LinearLayout>
@@ -127,7 +123,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_flag"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -146,13 +142,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/translate"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/translate_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
             </LinearLayout>
@@ -171,7 +165,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_rate"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -190,13 +184,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rate_on_google_play"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/rate_on_google_play_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
             </LinearLayout>
@@ -215,7 +207,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_donate"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -234,13 +226,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/donate"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/donate_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
             </LinearLayout>

@@ -17,18 +17,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/image"
+            <rezaei.mohammad.mahoor.views.WidthFitSquareLayout
+                android:id="@+id/image_container"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/default_album_art" />
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/default_album_art"
+                    android:transitionName="@string/transition_album_art"
+                    tools:ignore="UnusedAttribute" />
+
+            </rezaei.mohammad.mahoor.views.WidthFitSquareLayout>
 
             <LinearLayout
                 android:id="@+id/header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/image"
+                android:layout_below="@+id/image_container"
                 android:elevation="@dimen/toolbar_elevation"
                 android:minHeight="@dimen/title_view_height"
                 android:orientation="vertical"

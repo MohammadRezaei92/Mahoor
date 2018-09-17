@@ -48,7 +48,7 @@
 
             </FrameLayout>
 
-            <com.alium.orin.views.BreadCrumbLayout
+            <rezaei.mohammad.mahoor.views.BreadCrumbLayout
                 android:id="@+id/bread_crumbs"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/tab_height"

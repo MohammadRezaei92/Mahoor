@@ -38,7 +38,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_author"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -57,7 +57,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/karim_abou_zeid"
+                    android:text="@string/m_r"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
@@ -82,7 +82,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_email"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -96,7 +96,6 @@
                 android:layout_marginStart="32dp"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/write_an_email"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>
@@ -113,7 +112,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_google_plus"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -127,7 +126,6 @@
                 android:layout_marginStart="32dp"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/add_to_google_plus_circles"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>
@@ -144,7 +142,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_twitter"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -158,7 +156,6 @@
                 android:layout_marginStart="32dp"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/follow_on_twitter"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>
@@ -175,7 +172,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <com.alium.orin.views.IconImageView
+            <rezaei.mohammad.mahoor.views.IconImageView
                 android:id="@+id/icon_website"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -189,7 +186,6 @@
                 android:layout_marginStart="32dp"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/visit_website"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
         </LinearLayout>

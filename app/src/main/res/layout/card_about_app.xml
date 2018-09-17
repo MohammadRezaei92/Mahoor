@@ -19,7 +19,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:src="@drawable/icon_web"
+            app:srcCompat="@drawable/icon_web"
             tools:ignore="ContentDescription" />
 
 
@@ -65,12 +65,11 @@
         android:clickable="true"
         android:gravity="center_vertical"
         android:minHeight="@dimen/md_listitem_height"
-        android:visibility="gone"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_info"
             android:layout_width="18dp"
             android:layout_height="18dp"
@@ -111,12 +110,11 @@
         android:clickable="true"
         android:gravity="center_vertical"
         android:minHeight="@dimen/md_listitem_height"
-        android:visibility="gone"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_changelog"
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -144,11 +142,12 @@
         android:clickable="true"
         android:gravity="center|left"
         android:minHeight="@dimen/md_listitem_height"
+        android:visibility="gone"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_intro"
             android:layout_width="24dp"
             android:tint="?colorPrimary"
@@ -175,7 +174,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:background="?attr/dividerColor"
-        android:visibility="visible" />
+        android:visibility="invisible" />
     <LinearLayout
         android:id="@+id/fork_on_github"
         android:layout_width="300dp"
@@ -184,12 +183,13 @@
         android:background="?attr/rectSelector"
         android:clickable="true"
         android:gravity="center|left"
+        android:visibility="gone"
         android:minHeight="@dimen/md_listitem_height"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_github"
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -203,7 +203,6 @@
             android:layout_marginStart="32dp"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:text="@string/fork_on_github"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
     </LinearLayout>
@@ -215,7 +214,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:background="?attr/dividerColor"
-        android:visibility="visible" />
+        android:visibility="invisible" />
 
     <LinearLayout
         android:id="@+id/licenses"
@@ -225,12 +224,13 @@
         android:clickable="true"
         android:gravity="center|left"
         android:layout_gravity="center"
+        android:visibility="gone"
         android:minHeight="@dimen/md_listitem_height"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_licenses"
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -256,7 +256,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:background="?attr/dividerColor"
-        android:visibility="visible" />
+        android:visibility="invisible" />
 
     <LinearLayout
         android:layout_width="300dp"
@@ -265,12 +265,13 @@
         android:gravity="center|left"
         android:minHeight="@dimen/md_listitem_height"
         android:clickable="true"
+        android:visibility="gone"
         android:orientation="horizontal"
         android:layout_gravity="center"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
-        <com.alium.orin.views.IconImageView
+        <rezaei.mohammad.mahoor.views.IconImageView
             android:id="@+id/icon_author"
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -289,13 +290,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/aliu_abdul_mujib"
+                android:text="@string/m_r"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/lagos_nigeria"
+                android:text="@string/isf_ir"
                 android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
         </LinearLayout>

@@ -6,6 +6,7 @@
     android:minWidth="@dimen/app_widget_small_min_width"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0"
+    android:previewImage="@drawable/widget_small_preview"
     android:widgetCategory="keyguard|home_screen"
     tools:ignore="UnusedAttribute" />
 

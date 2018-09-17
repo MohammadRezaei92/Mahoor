@@ -34,7 +34,7 @@
         android:clipToPadding="false"
         android:scrollbars="none" />
 
-    <com.alium.orin.views.IndexLayoutManager
+    <rezaei.mohammad.mahoor.views.IndexLayoutManager
         android:id="@+id/index_layout"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent" />

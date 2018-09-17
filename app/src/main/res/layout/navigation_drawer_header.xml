@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/image"
         android:scaleType="centerCrop"
-        android:src="@drawable/default_album_art"
+        app:srcCompat="@drawable/default_album_art"
         android:transitionName="@string/transition_album_art"
         app:layout_aspectRatio="178%"
         app:layout_widthPercent="100%"

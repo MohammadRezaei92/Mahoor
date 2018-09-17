@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.alium.orin.views.WidthFitSquareLayout
+            <rezaei.mohammad.mahoor.views.WidthFitSquareLayout
                 android:id="@+id/image_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -27,11 +27,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/default_album_art"
+                    app:srcCompat="@drawable/default_album_art"
                     android:transitionName="@string/transition_album_art"
                     tools:ignore="UnusedAttribute" />
 
-            </com.alium.orin.views.WidthFitSquareLayout>
+            </rezaei.mohammad.mahoor.views.WidthFitSquareLayout>
 
             <LinearLayout
                 android:id="@+id/header"

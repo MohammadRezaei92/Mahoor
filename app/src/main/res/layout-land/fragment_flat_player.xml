@@ -32,18 +32,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.alium.orin.views.HeightFitSquareLayout
+        <rezaei.mohammad.mahoor.views.HeightFitSquareLayout
             android:id="@+id/cover_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <fragment
                 android:id="@+id/player_album_cover_fragment"
-                class="com.alium.orin.ui.fragments.player.PlayerAlbumCoverFragment"
+                class="rezaei.mohammad.mahoor.ui.fragments.player.PlayerAlbumCoverFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-        </com.alium.orin.views.HeightFitSquareLayout>
+        </rezaei.mohammad.mahoor.views.HeightFitSquareLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
 
             <fragment
                 android:id="@+id/playback_controls_fragment"
-                class="com.alium.orin.ui.fragments.player.flat.FlatPlayerPlaybackControlsFragment"
+                class="rezaei.mohammad.mahoor.ui.fragments.player.flat.FlatPlayerPlaybackControlsFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

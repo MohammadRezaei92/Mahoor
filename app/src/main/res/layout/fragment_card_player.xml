@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.alium.orin.views.WidthFitSquareLayout
+                <rezaei.mohammad.mahoor.views.WidthFitSquareLayout
                     android:id="@+id/album_cover_container"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -43,15 +43,15 @@
 
                     <fragment
                         android:id="@+id/player_album_cover_fragment"
-                        class="com.alium.orin.ui.fragments.player.PlayerAlbumCoverFragment"
+                        class="rezaei.mohammad.mahoor.ui.fragments.player.PlayerAlbumCoverFragment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                </com.alium.orin.views.WidthFitSquareLayout>
+                </rezaei.mohammad.mahoor.views.WidthFitSquareLayout>
 
                 <fragment
                     android:id="@+id/playback_controls_fragment"
-                    class="com.alium.orin.ui.fragments.player.card.CardPlayerPlaybackControlsFragment"
+                    class="rezaei.mohammad.mahoor.ui.fragments.player.card.CardPlayerPlaybackControlsFragment"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/album_cover_container" />

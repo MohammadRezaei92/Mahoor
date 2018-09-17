@@ -19,7 +19,6 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingTop="24dp"
-            android:text="@string/device_info"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="?android:textColorSecondary" />
 

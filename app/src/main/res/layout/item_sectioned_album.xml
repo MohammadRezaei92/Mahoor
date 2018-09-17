@@ -57,7 +57,7 @@
             android:orientation="horizontal"
             tools:ignore="UnusedAttribute,UselessParent">
 
-            <com.alium.orin.views.WidthFitSquareLayout
+            <rezaei.mohammad.mahoor.views.WidthFitSquareLayout
                 android:id="@+id/image_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -96,7 +96,7 @@
                 </RelativeLayout>
 
 
-            </com.alium.orin.views.WidthFitSquareLayout>
+            </rezaei.mohammad.mahoor.views.WidthFitSquareLayout>
 
 
             <LinearLayout

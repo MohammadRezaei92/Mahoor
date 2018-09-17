@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "249067697967",
+    "firebase_url": "https://mahoor-35e0e.firebaseio.com",
+    "project_id": "mahoor-35e0e",
+    "storage_bucket": "mahoor-35e0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249067697967:android:25d482b7ee028662",
+        "android_client_info": {
+          "package_name": "rezaei.mohammad.mahoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249067697967-ima4tn63g4g7eh95dnn1ot3u4kqoojco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjWY0sggv0OQBOyVn7oTg1fGFbhfETJR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

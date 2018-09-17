@@ -203,14 +203,14 @@
     <string name="sleep_timer_set">Sleep timer set for %d minutes from now.</string>
     <string name="action_new_playlist">New playlist…</string>
     <string name="new_playlist_title">New playlist</string>
-    <string name="grid_size_1">1</string>
-    <string name="grid_size_2">2</string>
-    <string name="grid_size_3">3</string>
-    <string name="grid_size_4">4</string>
-    <string name="grid_size_5">5</string>
-    <string name="grid_size_6">6</string>
-    <string name="grid_size_7">7</string>
-    <string name="grid_size_8">8</string>
+    <string name="grid_size_1" translatable="false">1</string>
+    <string name="grid_size_2" translatable="false">2</string>
+    <string name="grid_size_3" translatable="false">3</string>
+    <string name="grid_size_4" translatable="false">4</string>
+    <string name="grid_size_5" translatable="false">5</string>
+    <string name="grid_size_6" translatable="false">6</string>
+    <string name="grid_size_7" translatable="false">7</string>
+    <string name="grid_size_8" translatable="false">8</string>
     <string name="colored_footers">Colored footers</string>
     <string name="special_thanks_to">Special thanks to</string>
     <string name="changelog">Changelog</string>
@@ -220,37 +220,14 @@
     <string name="back">back</string>
     <string name="support_development">Support development</string>
     <string name="thank_you">Thank you!</string>
-    <string name="restored_previous_purchases">Restored previous purchases.</string>
-    <string name="play_store_illustration_by">Play Store illustration by</string>
     <string name="version">Version</string>
     <string name="application">Application</string>
     <string name="author">Author</string>
-    <string name="write_an_email">Write an email</string>
-    <string name="add_to_google_plus_circles">Add to Google Plus circles</string>
-    <string name="follow_on_twitter">Follow on Twitter</string>
-    <string name="fork_on_github">Fork on GitHub</string>
-    <string name="visit_website">Visit website</string>
-    <string name="report_bugs">Report bugs</string>
-    <string name="report_bugs_summary">Report bugs or request new features.</string>
-    <string name="join_community">Join the Google Plus community</string>
-    <string name="join_community_summary">If you need help or have questions, the Ọrin community on Google Plus is a good place to go.</string>
-    <string name="translate">Translate</string>
-    <string name="translate_summary">Help translating Ọrin to your native language.</string>
-    <string name="rate_on_google_play">Rate</string>
-    <string name="rate_on_google_play_summary">Leave a positive rating on Google Play if you like Ọrin.</string>
-    <string name="donate">Donate</string>
-    <string name="donate_summary">If you think I deserve to get paid for my work, you can leave me a few dollars here.</string>
-    <string name="aidan_follestad_summary">For the theme engine and some other great stuff.</string>
-    <string name="michael_cook_summary">For the pretty material app icon.</string>
-    <string name="maarten_corpel_summary">For making the Play Store illustration and the empty album cover.</string>
-    <string name="aleksandar_tesic_summary">For helping me with the design.</string>
-    <string name="website">Website</string>
-    <string name="loading_products">Loading products…</string>
     <string name="up_next">Up next</string>
     <string name="pref_title_now_playing_screen_appearance">Appearance</string>
     <string name="intro_label">Introduction</string>
     <string name="press_back_again_to_exit_intro">Press back again to skip the intro.</string>
-    <string name="welcome_to_Ọrin">"Welcome to Ọrin, a beautiful and lightweight music player for Android. "</string>
+    <string name="welcome_to_Mahoor">"Welcome to Mahoor, a beautiful and lightweight music player for Android. "</string>
     <string name="open_playing_queue_instruction">Swipe the card in the now playing screen up to reveal the full playing queue.</string>
     <string name="rearrange_playing_queue_instruction">Rearrange the playing queue by dragging a song from its track number.</string>
     <string name="library">Library</string>
@@ -263,32 +240,9 @@
     <string name="could_not_scan_files">Could not scan %d files.</string>
     <string name="listing_files">Listing files</string>
     <string name="new_start_directory">%s is the new start directory.</string>
-    <string name="app_widget_big_name">Ọrin - Big</string>
-    <string name="app_widget_classic_name">Ọrin - Classic</string>
-    <string name="app_widget_small_name">Ọrin - Small</string>
-    <string name="report_an_issue">Report an issue</string>
-    <string name="bug_report_issue">Issue</string>
-    <string name="login">Login</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
-    <string name="device_info">Device info</string>
-    <string name="bug_report_use_account">Send using GitHub account</string>
-    <string name="bug_report_manual">Send manually</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="bug_report_no_title">Please enter an issue title</string>
-    <string name="bug_report_no_description">Please enter an issue description</string>
-    <string name="bug_report_no_username">Please enter your valid GitHub username</string>
-    <string name="bug_report_no_password">Please enter your valid GitHub password</string>
-    <string name="bug_report_uploading">Uploading report to GitHub…</string>
-    <string name="bug_report_failed">Unable to send bug report</string>
-    <string name="bug_report_failed_wrong_credentials">Wrong username or password</string>
-    <string name="bug_report_failed_invalid_token">Invalid access token. Please contact the app developer.</string>
-    <string name="bug_report_failed_issues_not_available">Issues are not enabled for the selected repository. Please contact the app developer.</string>
-    <string name="bug_report_failed_unknown">An unexpected error occurred. Please contact the app developer.</string>
-    <string name="copied_device_info_to_clipboard">Copied device info to clipboard.</string>
-    <string name="your_account_data_is_only_used_for_authentication">Your account data is only used for authentication.</string>
-    <string name="you_will_be_forwarded_to_the_issue_tracker_website">You will be forwarded to the issue tracker website.</string>
+    <string name="app_widget_big_name">Mahoor - Big</string>
+    <string name="app_widget_classic_name">Mahoor - Classic</string>
+    <string name="app_widget_small_name">Mahoor - Small</string>
     <!-- App Shortcuts -->
     <string name="app_shortcut_shuffle_all_long">@string/action_shuffle_all</string>
     <string name="app_shortcut_shuffle_all_short">Shuffle</string>
@@ -298,10 +252,8 @@
     <string name="app_shortcut_last_added_short">@string/last_added</string>
     <string name="playlist_is_empty">Playlist is empty</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="about_app_text">Orin is a music player based on Karim Abou Zeid\'s open source Phonograph music player,
-        I always wanted to implement  Aleksandar Tešić\'s designs of a music player that can be found here!
-        https://material.uplabs.com/posts/a-music-player-in-material-design-a-concept, but haven\'t had the time to start one from scratch,
-        so well I used Phonograph as a base , I don\'t have permissions to use these designs yet so I can\'t release the app on the Playstore</string>
+
+    <string name="about_app_text">Mahoor is a music player based on Karim Abou Zeid\'s open source Phonograph music player,
+        It\'s open source and you can find source on https://github.com/MohammadRezaei92/Mahoor.
+    Developed by Mohammad Rezaei.</string>
 </resources>

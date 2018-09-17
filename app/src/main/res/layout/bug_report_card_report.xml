@@ -42,13 +42,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bug_report_use_account"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/your_account_data_is_only_used_for_authentication"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 
@@ -68,7 +66,6 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/bug_report_issue"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="?android:textColorSecondary" />
 
@@ -81,7 +78,6 @@
                     android:id="@+id/input_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/title"
                     android:inputType="textCapSentences"
                     android:singleLine="true" />
 
@@ -97,7 +93,6 @@
                     android:id="@+id/input_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/description"
                     android:inputType="textCapSentences" />
 
             </android.support.design.widget.TextInputLayout>
@@ -107,7 +102,6 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingTop="8dp"
-                android:text="@string/login"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:textColor="?android:textColorSecondary" />
 
@@ -120,7 +114,6 @@
                     android:id="@+id/input_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/username"
                     android:inputType="textNoSuggestions"
                     android:singleLine="true" />
 
@@ -135,7 +128,6 @@
                     android:id="@+id/input_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/password"
                     android:imeOptions="actionSend"
                     android:inputType="textPassword" />
 
@@ -171,13 +163,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bug_report_manual"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/you_will_be_forwarded_to_the_issue_tracker_website"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 

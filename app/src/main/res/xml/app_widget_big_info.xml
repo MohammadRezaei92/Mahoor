@@ -7,6 +7,7 @@
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0"
     android:widgetCategory="keyguard|home_screen"
+    android:previewImage="@drawable/widget_big_preview"
     tools:ignore="UnusedAttribute" />
 
     <!--android:previewImage="@drawable/app_widget_classic"-->

@@ -13,6 +13,7 @@
         tools:ignore="ContentDescription"
         tools:src="@drawable/default_album_art" />
 
+
     <LinearLayout
         android:id="@+id/media_actions"
         android:layout_width="match_parent"
@@ -54,6 +55,12 @@
             tools:tint="@color/ate_primary_text_dark" />
 
     </LinearLayout>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/media_actions"/>
 
     <FrameLayout
         android:id="@+id/clickable_area"

@@ -48,13 +48,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/aidan_follestad"
+                    android:text="@string/m_r"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/aidan_follestad_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 
@@ -106,13 +105,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/michael_cook_cookicons"
+                    android:text="@string/m_r"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/michael_cook_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 
@@ -135,7 +133,6 @@
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/website"
                     android:textColor="#4183c4" />
             </LinearLayout>
 
@@ -164,13 +161,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/maarten_corpel"
+                    android:text="@string/m_r"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/maarten_corpel_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 
@@ -214,13 +210,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/aleksandar_tesic"
+                    android:text="@string/m_r"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/aleksandar_tesic_summary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
             </LinearLayout>
 
