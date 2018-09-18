@@ -14,9 +14,12 @@ import rezaei.mohammad.mahoor.ui.fragments.mainactivity.library.pager.ArtistsFra
 import rezaei.mohammad.mahoor.ui.fragments.mainactivity.library.pager.SongsFragment;
 import rezaei.mohammad.mahoor.R;
 import rezaei.mohammad.mahoor.ui.fragments.mainactivity.library.pager.PlaylistsFragment;
+import rezaei.mohammad.mahoor.util.Util;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
@@ -42,6 +45,12 @@ public class MusicLibraryPagerAdapter extends FragmentPagerAdapter {
                 context.getResources().getString(R.string.playlists)
         };
         final MusicFragments[] fragments = MusicFragments.values();
+
+        if(Util.isRTL(mContext)){
+            Collections.reverse(Arrays.asList(titles));
+            Collections.reverse(Arrays.asList(fragments));
+        }
+
         for (final MusicLibraryPagerAdapter.MusicFragments fragment : fragments) {
             add(fragment.getFragmentClass(), null);
         }

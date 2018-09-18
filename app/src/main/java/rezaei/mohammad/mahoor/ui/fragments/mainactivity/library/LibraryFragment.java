@@ -119,6 +119,10 @@ public class LibraryFragment extends AbsMainActivityFragment implements CabHolde
 
         int startPosition = PreferenceUtil.getInstance(getActivity()).getDefaultStartPage();
         startPosition = startPosition == -1 ? PreferenceUtil.getInstance(getActivity()).getLastPage() : startPosition;
+
+        if(Util.isRTL(requireContext())){
+            startPosition = Math.abs(startPosition - 3);
+        }
         pager.setCurrentItem(startPosition);
         PreferenceUtil.getInstance(getActivity()).setLastPage(startPosition); // just in case
         pager.addOnPageChangeListener(this);
