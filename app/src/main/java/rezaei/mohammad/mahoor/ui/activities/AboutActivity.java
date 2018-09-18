@@ -32,7 +32,7 @@ import de.psdev.licensesdialog.LicensesDialog;
 @SuppressWarnings("FieldCanBeLocal")
 public class AboutActivity extends AbsBaseActivity implements View.OnClickListener {
 
-    private static String GITHUB = "https://github.com/kabouzeid/Phonograph";
+    private static String GITHUB = "https://github.com/MohammadRezaei92/Mahoor";
 
     private static String GOOGLE_PLUS = "https://google.com/+KarimAbouZeid23697";
     private static String TWITTER = "https://twitter.com/karim23697";
@@ -188,7 +188,7 @@ public class AboutActivity extends AbsBaseActivity implements View.OnClickListen
             Intent intent = new Intent(Intent.ACTION_SENDTO);
             intent.setData(Uri.parse("mailto:contact@kabouzeid.com"));
             intent.putExtra(Intent.EXTRA_EMAIL, "contact@kabouzeid.com");
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Phonograph");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Mahoor");
             startActivity(Intent.createChooser(intent, "E-Mail"));
         } else if (v == joinGooglePlusCommunity) {
             openUrl(GOOGLE_PLUS_COMMUNITY);

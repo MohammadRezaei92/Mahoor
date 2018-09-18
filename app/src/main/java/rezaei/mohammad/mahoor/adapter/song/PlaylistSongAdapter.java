@@ -83,6 +83,16 @@ public class PlaylistSongAdapter extends SongAdapter implements DraggableItemAda
         return true;
     }
 
+    @Override
+    public void onItemDragStarted(int position) {
+
+    }
+
+    @Override
+    public void onItemDragFinished(int fromPosition, int toPosition, boolean result) {
+
+    }
+
     public interface OnMoveItemListener {
         void onMoveItem(int fromPosition, int toPosition);
     }

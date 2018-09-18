@@ -83,6 +83,8 @@ public class PlayingNotificationImpl implements PlayingNotification {
         action.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent openAppPendingIntent = PendingIntent.getActivity(service, 0, action, 0);
 
+
+
         final Notification notification = new NotificationCompat.Builder(service)
                 .setSmallIcon(R.drawable.ic_notification)
                 .setContentIntent(openAppPendingIntent)

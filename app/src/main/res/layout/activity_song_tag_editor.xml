@@ -55,7 +55,7 @@
                         android:id="@+id/title1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-medium"
+
                         android:gravity="center_vertical"
                         android:hint="@string/song"
                         android:inputType="text|textCapWords"
@@ -73,7 +73,7 @@
                         android:id="@+id/title2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-medium"
+
                         android:gravity="center_vertical"
                         android:hint="@string/album"
                         android:inputType="text|textCapWords"
@@ -102,7 +102,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="sans-serif"
+
                         android:gravity="center_vertical"
                         android:hint="@string/artist"
                         android:inputType="text|textCapWords"
@@ -120,7 +120,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="sans-serif"
+
                         android:gravity="center_vertical"
                         android:hint="@string/genre"
                         android:singleLine="true"
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="sans-serif"
+
                         android:gravity="center_vertical"
                         android:hint="@string/year"
                         android:inputType="text|number"
@@ -155,7 +155,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="sans-serif"
+
                         android:gravity="center_vertical"
                         android:hint="@string/track_hint"
                         android:inputType="text|number"
@@ -173,7 +173,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:fontFamily="sans-serif"
+
                         android:gravity="center_vertical"
                         android:hint="@string/lyrics"
                         android:inputType="textMultiLine"

@@ -39,3 +39,5 @@ captures/
 
 # Mac
 .DS_Store
+
+*.jks

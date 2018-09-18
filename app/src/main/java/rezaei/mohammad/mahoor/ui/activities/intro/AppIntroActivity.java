@@ -16,6 +16,7 @@ public class AppIntroActivity extends IntroActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        setButtonCtaLabel(R.string.get_started);
         setButtonCtaVisible(true);
         setButtonNextVisible(false);
         setButtonBackVisible(false);
@@ -29,6 +30,7 @@ public class AppIntroActivity extends IntroActivity {
                 .background(R.color.md_blue_grey_100)
                 .backgroundDark(R.color.md_blue_grey_200)
                 .layout(R.layout.fragment_simple_slide_large_image)
+                .buttonCtaLabel(R.string.get_started)
                 .build());
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.label_playing_queue)
@@ -37,6 +39,7 @@ public class AppIntroActivity extends IntroActivity {
                 .background(R.color.md_deep_purple_500)
                 .backgroundDark(R.color.md_deep_purple_600)
                 .layout(R.layout.fragment_simple_slide_large_image)
+                .buttonCtaLabel(R.string.get_started)
                 .build());
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.label_playing_queue)
@@ -45,6 +48,7 @@ public class AppIntroActivity extends IntroActivity {
                 .background(R.color.md_indigo_500)
                 .backgroundDark(R.color.md_indigo_600)
                 .layout(R.layout.fragment_simple_slide_large_image)
+                .buttonCtaLabel(R.string.get_started)
                 .build());
     }
 }

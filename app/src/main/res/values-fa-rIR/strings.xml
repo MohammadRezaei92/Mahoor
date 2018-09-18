@@ -219,9 +219,9 @@
     <string name="pref_title_now_playing_screen_appearance">ظاهر</string>
     <string name="intro_label">معرفی</string>
     <string name="press_back_again_to_exit_intro">برای رد شدن از معرفی دکمه برگشت را یکبار دیگر بزنید.</string>
-    <string name="open_playing_queue_instruction">در صفحه پخش کارت را به سمت بالا بکشید تا صف پخش رو به طور کامل مشاهده کنید.</string>
+    <string name="open_playing_queue_instruction">در صفحه پخش کارت را به سمت بالا بکشید تا صف پخش را به طور کامل مشاهده کنید.</string>
     <string name="rearrange_playing_queue_instruction">مرتب سازی صف پخش با کشیدن یک آهنگ توسط شماره ترک آن.</string>
-    <string name="library">فایلهای شخصی</string>
+    <string name="library">آهنگ های شما</string>
     <string name="folders">پوشه ها</string>
     <string name="saved_playlist_to">ذخیره لیست پخش در %s.</string>
     <string name="failed_to_save_playlist">مشکل در ذخیره لیست پخش (%s).</string>
@@ -245,4 +245,6 @@
     <string name="isf_ir">اصفهان، ایران</string>
     <string name="card">کارت</string>
     <string name="flat">تخت</string>
+    <string name="get_started">شروع</string>
+
 </resources>

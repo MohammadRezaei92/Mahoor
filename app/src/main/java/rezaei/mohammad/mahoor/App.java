@@ -1,7 +1,9 @@
 package rezaei.mohammad.mahoor;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.Build;
+import android.support.multidex.MultiDex;
 
 import rezaei.mohammad.mahoor.appshortcuts.DynamicShortcutManager;
 
@@ -10,6 +12,12 @@ import rezaei.mohammad.mahoor.appshortcuts.DynamicShortcutManager;
  * @author Karim Abou Zeid (kabouzeid)
  */
 public class App extends Application {
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
 
     @Override
     public void onCreate() {

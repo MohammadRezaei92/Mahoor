@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.text.Html;
 
 import com.afollestad.materialdialogs.DialogAction;
@@ -63,6 +64,8 @@ public class DeletePlaylistDialog extends DialogFragment {
                         PlaylistsUtil.deletePlaylists(getActivity(), playlists);
                     }
                 })
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
     }
 }

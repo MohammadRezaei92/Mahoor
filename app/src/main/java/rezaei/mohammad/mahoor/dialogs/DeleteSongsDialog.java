@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.text.Html;
 
 import com.afollestad.materialdialogs.DialogAction;
@@ -54,6 +55,8 @@ public class DeleteSongsDialog extends DialogFragment {
                 .content(content)
                 .positiveText(R.string.delete_action)
                 .negativeText(android.R.string.cancel)
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .onPositive(new MaterialDialog.SingleButtonCallback() {
                     @Override
                     public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
@@ -62,6 +65,8 @@ public class DeleteSongsDialog extends DialogFragment {
                         MusicUtil.deleteTracks(getActivity(), songs);
                     }
                 })
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
     }
 }

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.text.Html;
 import android.text.Spanned;
 import android.util.Log;
@@ -64,6 +65,8 @@ public class SongDetailDialog extends DialogFragment {
                 .customView(R.layout.dialog_file_details, true)
                 .title(context.getResources().getString(R.string.label_details))
                 .positiveText(android.R.string.ok)
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
 
         View dialogView = dialog.getCustomView();

@@ -7,6 +7,7 @@
         <item name="windowActionBarOverlay">true</item>
 
         <item name="md_dark_theme">true</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
 
         <item name="roundSelector">@drawable/round_selector_dark</item>
         <item name="rectSelector">@drawable/rect_selector_dark</item>
@@ -34,7 +35,7 @@
 
         <item name="android:windowActionBarOverlay">true</item>
         <item name="windowActionBarOverlay">true</item>
-
+        <item name="android:fontFamily">@font/iran_sans</item>
         <item name="md_dark_theme">false</item>
 
         <item name="roundSelector">@drawable/round_selector</item>
@@ -65,12 +66,14 @@
         <item name="defaultFooterColor">@color/md_grey_800</item>
         <item name="cardBackgroundColor">@color/md_grey_900</item>
         <item name="md_background_color">@color/md_grey_900</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
     </style>
 
     <style name="FabParent">
         <item name="borderWidth">0dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
     </style>
 
     <style name="MusicProgressSliderParent">
@@ -78,6 +81,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:thumb">@drawable/slider_thumb</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
     </style>
 
     <style name="TraditionalMusicProgressSliderParent">
@@ -85,10 +89,12 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">@dimen/seek_bar_margin_left_right</item>
         <item name="android:layout_marginRight">@dimen/seek_bar_margin_left_right</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
     </style>
 
     <!-- content description is necessary to find the overflow button later in the layout-->
     <style name="Widget.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
         <item name="android:contentDescription">@string/abc_action_menu_overflow_description</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
     </style>
 </resources>

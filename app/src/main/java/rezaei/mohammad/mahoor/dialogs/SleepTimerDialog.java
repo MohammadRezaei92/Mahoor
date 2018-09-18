@@ -11,6 +11,7 @@ import android.os.CountDownTimer;
 import android.os.SystemClock;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -96,6 +97,8 @@ public class SleepTimerDialog extends DialogFragment {
                     }
                 })
                 .customView(R.layout.dialog_sleep_timer, false)
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
 
         if (getActivity() == null || materialDialog.getCustomView() == null) {

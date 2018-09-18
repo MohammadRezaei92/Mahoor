@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -67,6 +68,8 @@ public class DonationsDialog extends DialogFragment implements BillingProcessor.
         return new MaterialDialog.Builder(getContext())
                 .title(R.string.support_development)
                 .customView(customView, false)
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
     }
 
@@ -192,7 +195,7 @@ public class DonationsDialog extends DialogFragment implements BillingProcessor.
             SkuDetails skuDetails = getItem(position);
             ViewHolder viewHolder = new ViewHolder(convertView);
 
-            viewHolder.title.setText(skuDetails.title.replace("(Phonograph Music Player)", "").trim());
+            viewHolder.title.setText(skuDetails.title.replace("(Maahoor Music Player)", "").trim());
             viewHolder.text.setText(skuDetails.description);
             viewHolder.price.setText(skuDetails.priceText);
 

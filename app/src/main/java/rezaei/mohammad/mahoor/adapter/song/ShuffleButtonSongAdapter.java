@@ -4,6 +4,7 @@ import android.graphics.Typeface;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -76,7 +77,7 @@ public class ShuffleButtonSongAdapter extends SongAdapter {
             if (holder.title != null) {
                 holder.title.setText(activity.getResources().getString(R.string.action_shuffle_all).toUpperCase());
                 holder.title.setTextColor(accentColor);
-                holder.title.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
+                holder.title.setTypeface(ResourcesCompat.getFont(activity,R.font.iran_sans), Typeface.BOLD);
             }
             if (holder.text != null) {
                 holder.text.setVisibility(View.GONE);

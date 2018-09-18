@@ -115,6 +115,16 @@ public class PlayingQueueAdapter extends SongAdapter implements DraggableItemAda
         return true;
     }
 
+    @Override
+    public void onItemDragStarted(int position) {
+
+    }
+
+    @Override
+    public void onItemDragFinished(int fromPosition, int toPosition, boolean result) {
+
+    }
+
     public class ViewHolder extends SongAdapter.ViewHolder implements DraggableItemViewHolder {
         @DraggableItemStateFlags
         private int mDragStateFlags;

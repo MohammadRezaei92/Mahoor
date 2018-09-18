@@ -6,8 +6,11 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 
 import com.afollestad.materialdialogs.MaterialDialog;
+
+import rezaei.mohammad.mahoor.R;
 
 /**
  * @author Karim Abou Zeid (kabouzeid)
@@ -30,6 +33,8 @@ public class LyricsDialog extends DialogFragment {
         return new MaterialDialog.Builder(getActivity())
                 .title(lyricInfo.title)
                 .content(lyricInfo.lyrics)
+                .typeface(ResourcesCompat.getFont(requireActivity(), R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
     }
 

@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.view.InflateException;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -49,6 +50,8 @@ public class ChangelogDialog extends DialogFragment {
                     .title(android.R.string.dialog_alert_title)
                     .content("This device doesn't support web view, which is necessary to view the change log. It is missing a system component.")
                     .positiveText(android.R.string.ok)
+                    .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                            ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                     .build();
         }
         MaterialDialog dialog = new MaterialDialog.Builder(getActivity())
@@ -62,13 +65,15 @@ public class ChangelogDialog extends DialogFragment {
                             setChangelogRead(getActivity());
                     }
                 })
+                .typeface(ResourcesCompat.getFont(requireActivity(),R.font.iran_sans)
+                        ,ResourcesCompat.getFont(requireActivity(),R.font.iran_sans))
                 .build();
 
         final WebView webView = (WebView) customView.findViewById(R.id.web_view);
         try {
             // Load from phonograph-changelog.html in the assets folder
             StringBuilder buf = new StringBuilder();
-            InputStream json = getActivity().getAssets().open("phonograph-changelog.html");
+            InputStream json = getActivity().getAssets().open("Mahoor-changelog.html");
             BufferedReader in = new BufferedReader(new InputStreamReader(json, "UTF-8"));
             String str;
             while ((str = in.readLine()) != null)

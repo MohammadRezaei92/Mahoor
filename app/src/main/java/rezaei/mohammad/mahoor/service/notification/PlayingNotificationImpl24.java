@@ -1,16 +1,18 @@
 package rezaei.mohammad.mahoor.service.notification;
 
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.graphics.Palette;
 import android.text.TextUtils;
 
@@ -104,7 +106,18 @@ public class PlayingNotificationImpl24 implements PlayingNotification {
                                 NotificationCompat.Action nextAction = new NotificationCompat.Action(R.drawable.ic_skip_next_white_24dp,
                                         service.getString(R.string.action_next),
                                         retrievePlaybackAction(MusicService.ACTION_SKIP));
-                                NotificationCompat.Builder builder = (NotificationCompat.Builder) new NotificationCompat.Builder(service)
+
+                                String channelName = service.getBaseContext().getString(R.string.now_playing_notification_channel);
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                    NotificationChannel channel = new NotificationChannel(channelName,channelName
+                                            , NotificationManager.IMPORTANCE_DEFAULT);
+                                    ((NotificationManager) service.getSystemService(Context.NOTIFICATION_SERVICE))
+                                            .createNotificationChannel(channel);
+                                }
+
+
+                                NotificationCompat.Builder builder = new NotificationCompat.Builder(service
+                                        ,channelName)
                                         .setSmallIcon(R.drawable.ic_notification)
                                         .setLargeIcon(bitmap)
                                         .setContentIntent(clickIntent)
@@ -115,10 +128,11 @@ public class PlayingNotificationImpl24 implements PlayingNotification {
                                         .setShowWhen(false)
                                         .addAction(previousAction)
                                         .addAction(playPauseAction)
-                                        .addAction(nextAction);
+                                        .addAction(nextAction)
+                                        .setChannelId(service.getBaseContext().getString(R.string.now_playing_notification_channel));
 
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                                    builder.setStyle(new NotificationCompat.MediaStyle().setMediaSession(service.getMediaSession().getSessionToken()).setShowActionsInCompactView(0, 1, 2))
+                                    builder.setStyle(new android.support.v4.media.app.NotificationCompat.MediaStyle().setMediaSession(service.getMediaSession().getSessionToken()).setShowActionsInCompactView(0, 1, 2))
                                             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
                                     if (PreferenceUtil.getInstance(service).coloredNotification())
                                         builder.setColor(color);

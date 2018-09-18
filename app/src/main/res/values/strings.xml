@@ -251,9 +251,11 @@
     <string name="app_shortcut_last_added_long">@string/last_added</string>
     <string name="app_shortcut_last_added_short">@string/last_added</string>
     <string name="playlist_is_empty">Playlist is empty</string>
+    <string name="now_playing_notification_channel">Mahoor Now Playing</string>
 
 
     <string name="about_app_text">Mahoor is a music player based on Karim Abou Zeid\'s open source Phonograph music player,
         It\'s open source and you can find source on https://github.com/MohammadRezaei92/Mahoor.
     Developed by Mohammad Rezaei.</string>
+    <string name="get_started">GET STARTED</string>
 </resources>
