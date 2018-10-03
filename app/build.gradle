@@ -1,7 +1,20 @@
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
 
+// Load keystore
+def keystorePropertiesFile = rootProject.file("local.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
+    signingConfigs {
+        Default {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
     compileSdkVersion 28
     dataBinding {
         enabled = true
@@ -14,8 +27,8 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         applicationId 'rezaei.mohammad.mahoor'
-        versionCode 1
-        versionName '1.0.0'
+        versionCode 2
+        versionName '1.0.1'
 
         multiDexEnabled true
     }
@@ -23,6 +36,9 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.Default
         }
     }
 

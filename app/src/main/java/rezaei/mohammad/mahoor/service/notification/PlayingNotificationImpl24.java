@@ -110,7 +110,7 @@ public class PlayingNotificationImpl24 implements PlayingNotification {
                                 String channelName = service.getBaseContext().getString(R.string.now_playing_notification_channel);
                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                                     NotificationChannel channel = new NotificationChannel(channelName,channelName
-                                            , NotificationManager.IMPORTANCE_DEFAULT);
+                                            , NotificationManager.IMPORTANCE_LOW);
                                     ((NotificationManager) service.getSystemService(Context.NOTIFICATION_SERVICE))
                                             .createNotificationChannel(channel);
                                 }

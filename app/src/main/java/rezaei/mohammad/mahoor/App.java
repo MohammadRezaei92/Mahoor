@@ -5,6 +5,9 @@ import android.content.Context;
 import android.os.Build;
 import android.support.multidex.MultiDex;
 
+import com.crashlytics.android.Crashlytics;
+
+import io.fabric.sdk.android.Fabric;
 import rezaei.mohammad.mahoor.appshortcuts.DynamicShortcutManager;
 
 
@@ -27,5 +30,7 @@ public class App extends Application {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
             new DynamicShortcutManager(this).initDynamicShortcuts();
         }
+
+        Fabric.with(this, new Crashlytics());
     }
 }

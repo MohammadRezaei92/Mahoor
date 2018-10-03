@@ -235,7 +235,6 @@
     <string name="app_widget_big_name">ماهور - بزرگ</string>
     <string name="app_widget_classic_name">ماهور - کلاسیک</string>
     <string name="app_widget_small_name">ماهور - کوچک</string>
-    <string name="report_an_issue">گزارش مشکل</string>
     <string name="app_shortcut_shuffle_all_short">پخش شانسی</string>
     <string name="app_shortcut_top_tracks_short">آهنگ های برتر</string>
     <string name="playlist_is_empty">لیست پخش خالی است</string>

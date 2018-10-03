@@ -31,6 +31,7 @@ import rezaei.mohammad.mahoor.model.Song;
 import rezaei.mohammad.mahoor.ui.activities.base.AbsSlidingMusicPanelActivity;
 import rezaei.mohammad.mahoor.util.PreferenceUtil;
 import com.bumptech.glide.Glide;
+import com.crashlytics.android.Crashlytics;
 import com.kabouzeid.appthemehelper.ThemeStore;
 import com.kabouzeid.appthemehelper.util.ATHUtil;
 import com.kabouzeid.appthemehelper.util.NavigationViewUtil;
